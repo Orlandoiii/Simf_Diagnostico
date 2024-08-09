@@ -28,6 +28,7 @@ export const MicroservicesProductSchema = z.object({
 });
 
 
+
 export const MicroservicesProductSchemaList = z.array(MicroservicesProductSchema).optional()
 
 
@@ -35,6 +36,8 @@ export type AssemblyInfoSchemaType = z.infer<typeof AssemblyInfoSchema>;
 
 
 export type MicroserviceSchemaType = z.infer<typeof MicroserviceSchema>;
+
+
 
 
 export type MicroservicesProductSchemaType = z.infer<typeof MicroservicesProductSchema>;

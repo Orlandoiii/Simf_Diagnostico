@@ -296,6 +296,9 @@ function App() {
     const protocol = window.location.protocol;
     setAddress(protocol + "//" + location + pathName)
 
+    //setAddress("http://192.168.100.230:8083/lbtr/diagnostico/")
+
+
     // setAddress("http:" + "//" + "192.168.100.220:8082/simf/diagnostico/")
   }, [])
 
